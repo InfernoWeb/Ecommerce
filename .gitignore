@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Build folders (common names)
+build/
+dist/
+client/build/
+
+# Client specific temporary folders
+.parcel-cache/  # If using Parcel bundler
+
+# Server environment variables
+.env
+
+# Database URI (security reasons)
+.mongo.uri
+
+# Common IDE/Editor files
+.idea/
+.vscode/
+.DS_Store
+
+# Testing files
+*.test.js
+*.spec.js
+
+# Coverage reports
+coverage/
+
+# Client package manager lockfile
+client/package-lock.json
+
+# Optional: Editor drafts
+*.md.draft
+
+# Compiled TypeScript (if applicable)
+*.tsx
+*.ts
+
+# NPM temporary files
+.npmignore
+npm-debug.log
